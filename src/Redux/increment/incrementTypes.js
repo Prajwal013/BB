@@ -1,0 +1,1 @@
+export const THEME_TOG = 'THEME_TOG'

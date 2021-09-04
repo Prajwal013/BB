@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  @import "../node_modules//bootstrap/scss//bootstrap.scss";
+}
+.App{
+  --bgColour : white ;
+  --fgColour : black ;
+
+
+  &[theme-mode="dark"]{
+    --bgColour : black ;
+    --fgColour : white ;
+
+  }
+   
+
+}
