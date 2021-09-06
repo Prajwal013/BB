@@ -6,6 +6,8 @@ import {useSelector} from "react-redux"
 
 import "antd/dist/antd.css"
 
+process.env.CI = false
+
 export default function App() {
     const theme = useSelector((state) => state.theme)
 
