@@ -11,7 +11,7 @@ import { Switch } from 'antd';
 import {Modal} from "antd"
 import {Select} from "antd"
 
-import "./page1.scss"
+import "./page1.css"
 import {useState} from "react"
 import {useEffect} from "react"
 
@@ -78,7 +78,7 @@ const CardSection = () => {
         <section className="toggle" theme-mode={theme}>
 
             <h1 theme-mode={theme} className="heading">Big-Bear Communities</h1>
-            <Switch className="switch" checkedChildren="light" unCheckedChildren="dark" defaultChecked onChange={onToggle} />
+            <Switch className="switch" checkedChildren="Light" unCheckedChildren="Dark" defaultChecked onChange={onToggle} />
             {/* <button onClick={() => dispatch(incCounter())}>Toggle theme {theme}</button> */}
             
 
