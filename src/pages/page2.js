@@ -25,7 +25,8 @@ const CardSection = () => {
 
     
     useEffect(() => {
-        fetch("https://demo.bigbeartech.in//sample-api")
+        
+        fetch(process.env.NODE_ENV==="production"?"https://demo.bigbeartech.in//sample-api":"/server/sample-api")
             .then((response) => response.json())
             .then((data) => {
                 console.log(data, Object.keys(data))
