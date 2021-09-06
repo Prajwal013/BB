@@ -24,9 +24,8 @@ const CardSection = () => {
     const [modaldata, setModaldata] = useState({})
 
     
-
     useEffect(() => {
-        fetch("/server/sample-api")
+        fetch("https://demo.bigbeartech.in//sample-api")
             .then((response) => response.json())
             .then((data) => {
                 console.log(data, Object.keys(data))

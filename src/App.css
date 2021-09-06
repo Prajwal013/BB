@@ -17,10 +17,10 @@
 } */
 
 .App {
-  --bgColour: white;
+  --bgColour: rgb(214, 210, 210);
   --fgColour: black;
 }
 .App[theme-mode="dark"] {
-  --bgColour: black;
+  --bgColour: rgb(65, 63, 63);
   --fgColour: white;
 }

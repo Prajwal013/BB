@@ -6,7 +6,6 @@ module.exports = function(app) {
     proxy( "/server",{     
       target: 'https://demo.bigbeartech.in/',
       changeOrigin: true,
-      // agent: keepAliveAgent,
       pathRewrite: {
         '^/server/': '/', // remove base path
         
