@@ -1,4 +1,4 @@
-import { THEME_TOG } from './incrementTypes'
+import { THEME_TOG } from './themeTypes'
 
 const initialState = {
   theme: "light"

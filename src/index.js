@@ -5,7 +5,7 @@ import App from "./App"
 import reportWebVitals from "./reportWebVitals"
 import {Provider} from "react-redux"
 import {createStore} from "redux"
-import countReducer from '../src/Redux/increment/incrementReducer'
+import countReducer from '../src/Redux/increment/themeReducer'
 
 const store = createStore(countReducer)
 
